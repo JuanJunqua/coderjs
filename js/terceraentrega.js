@@ -2,7 +2,7 @@ class BaseDeDatos {
   constructor() {
     this.productos = [];
     
-    this.agregarRegistro(1,   "NotebookLenovoV14",   1000,  "notebooks", 5 );
+      this.agregarRegistro(1,   "NotebookLenovoV14",   1000,  "notebooks", 5 );
       this.agregarRegistro(2,  "Notebook Lenovo Ip1", 2000,  "notebooks", 5 );
       this.agregarRegistro(3,  "Notebook Lenovo Thinkpad", 3000,  "notebooks", 5 );
       this.agregarRegistro(4,  "Notebook Asus I7", 4000,  "notebooks,", 5 );
@@ -16,7 +16,7 @@ class BaseDeDatos {
   }
 
   agregarRegistro(id, nombre, precio, categoria, stock) {
-    const producto = new Producto(id, nombre, precio, categoria,);
+    const producto = new Producto(id, nombre, precio, categoria,stock);
     this.productos.push(producto);
   }
   
@@ -61,20 +61,9 @@ class Carrito{
   }
       
   listar(){
-  divCarrito.innerHTML = ""
-  for (const producto of this.carrito){
-    <div class="Producto">
-      <h1>${producto.nombre}</h1>
-      <p>$${producto.precio}</p>
-      <p>Cantidad: ${producto.cantidad}</p>
-
-      <a href="#" class="btnQuitar">quitar</a>
-
-
-
-    </div>
-
-  }
+  
+    
+  
   }   
 }
 
@@ -128,7 +117,31 @@ const carrito = new Carrito();
 
 
 
+
+
+let cart = [];
+
+function testedu(cart){
+  cart.push(this.productos)
+
+
+  console.log(cart)
+}
+
+
+
+
 /* checkout */
 
+
+
+
+
+
+function proceedToCheckout() {
+
+  localStorage.setItem('productos', JSON.stringify(productos));
+  window.location.href = 'checkout.html';
+}
 
 
