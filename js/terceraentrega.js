@@ -1,5 +1,3 @@
-
-
 class BaseDeDatos {
   constructor() {
     this.productos = [];
@@ -58,11 +56,32 @@ class Carrito{
       this.carrito.push({ ...producto, cantidad: 1});
       
     }
-    console.log(this.carrito);
+    this.listar();
+   console.log(this.carrito)
   }
+      
+  listar(){
+  divCarrito.innerHTML = ""
+  for (const producto of this.carrito){
+    <div class="Producto">
+      <h1>${producto.nombre}</h1>
+      <p>$${producto.precio}</p>
+      <p>Cantidad: ${producto.cantidad}</p>
+
+      <a href="#" class="btnQuitar">quitar</a>
+
+
+
+    </div>
+
+  }
+  }   
 }
 
- 
+
+
+  
+
   /* clase productos */
 class Producto {
   constructor(id, nombre, precio, categoria,) {
@@ -78,10 +97,11 @@ class Producto {
 
 const bd = new BaseDeDatos();
 
+const divProductos = document.querySelector("#productos")
+const divCarrito = document.querySelector("#carrito")
 
 
-
-function cargaProductos(){
+function cargarProductos(){
   const productos = bd.traerRegistro();
 
 
@@ -109,3 +129,6 @@ const carrito = new Carrito();
 
 
 /* checkout */
+
+
+
