@@ -36,7 +36,7 @@ class BaseDeDatos {
 /* carrito */
 class Carrito{
   constructor(){
-    this.carrito = [];
+    this.carrito = this.getCartFromLocalStorage();  /* <--- si el carrito tiene algo usa el storage */
     this.total = 0;
     this.totalProductos = 0;
     this.cantidad = 0;
@@ -47,6 +47,17 @@ class Carrito{
     return this.carrito.find((producto) => producto.id === id);
   }
 
+
+/* si el carrito tiene items los guarda */
+
+  getCartFromLocalStorage() {
+    const cartData = localStorage.getItem('carrito');
+    if (cartData) {
+      return JSON.parse(cartData);
+    }
+    return [];
+  }
+
   comprar(producto){
     let productoEnCarrito = this.estaEnCarrito(producto);
     if (productoEnCarrito){
@@ -54,10 +65,10 @@ class Carrito{
 
     } else{
       this.carrito.push({ ...producto, cantidad: 1});
-      localStorage.setItem("carrito", JSON.stringify(this.carrito));
+      
     }
     
-    
+    localStorage.setItem("carrito", JSON.stringify(this.carrito));
     
    console.log(this.carrito)
   }   
@@ -70,6 +81,7 @@ class Carrito{
   
 
   /* clase productos */
+  
 class Producto {
   constructor(id, nombre, precio, categoria,) {
     this.id = id;
