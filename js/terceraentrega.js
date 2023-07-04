@@ -54,8 +54,10 @@ class Carrito{
 
     } else{
       this.carrito.push({ ...producto, cantidad: 1});
-      
+      localStorage.setItem("carrito", JSON.stringify(this.carrito));
     }
+
+    
     this.listar();
    console.log(this.carrito)
   }
@@ -86,8 +88,7 @@ class Producto {
 
 const bd = new BaseDeDatos();
 
-const divProductos = document.querySelector("#productos")
-const divCarrito = document.querySelector("#carrito")
+
 
 
 function cargarProductos(){
@@ -139,8 +140,7 @@ function testedu(cart){
 
 
 function proceedToCheckout() {
-
-  localStorage.setItem('productos', JSON.stringify(productos));
+  localStorage.setItem('carrito', JSON.stringify(carrito.carrito));
   window.location.href = 'checkout.html';
 }
 
