@@ -56,18 +56,14 @@ class Carrito{
       this.carrito.push({ ...producto, cantidad: 1});
       localStorage.setItem("carrito", JSON.stringify(this.carrito));
     }
-
     
-    this.listar();
+    
+    
    console.log(this.carrito)
-  }
-      
-  listar(){
-  
-    
-  
   }   
 }
+      
+ 
 
 
 
@@ -120,14 +116,6 @@ const carrito = new Carrito();
 
 
 
-let cart = [];
-
-function testedu(cart){
-  cart.push(this.productos)
-
-
-  console.log(cart)
-}
 
 
 

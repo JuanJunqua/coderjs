@@ -22,7 +22,7 @@ function displayCart() {
 
   cart.forEach(product => {
       const listItem = document.createElement('li');
-      listItem.textContent = `${product.nombre} - $${product.precio} - `;
+      listItem.textContent = `${product.nombre} - $${product.precio} -  Cantidad: ${product.cantidad}`;
       cartContainer.appendChild(listItem)
   });
 }
