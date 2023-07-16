@@ -1,0 +1,90 @@
+[
+    {
+
+    
+        "id": 1,
+        "nombre": "NotebookLenovoV14",
+        "precio": 1000,
+        "categoria": "notebooks"
+    },
+
+    {
+        "id": 2,
+        "nombre": "Notebook Lenovo Ip1",
+        "precio": 2000,
+        "categoria": "notebooks"
+
+    },
+
+
+    {
+        "id": 3,
+        "nombre": "Notebook Lenovo Thinkpad",
+        "precio": 3000,
+        "categoria": "notebooks"
+    },
+
+    {
+        "id": 4,
+        "nombre": "Notebook Asus I7",
+        "precio": 4000,
+        "categoria": "notebooks"
+    },
+
+    {
+
+        "id": 5,
+        "nombre": "Notebook Lenovo L15",
+        "precio": 5000,
+        "categoria": "notebooks"
+    },
+
+    
+
+    {
+        "id": 6,
+        "nombre": "Notebook Hp 245",
+        "precio": 6000,
+        "categoria": "notebooks"
+    },
+    
+
+    {
+
+        "id": 7,
+        "nombre": "Notebook Novabook V6",
+        "precio": 7000,
+        "categoria": "notebooks"
+    },
+
+    {
+
+        "id": 8,
+        "nombre": "Notebook HP Victus",
+        "precio": 8000,
+        "categoria": "notebooks"
+
+    },
+
+    {
+        "id": 9,
+        "nombre": "Notebook Exo Smart",
+        "precio": 9000,
+        "categoria": "notebooks"
+
+    },
+
+    {
+        "id": 10,
+        "nombre": "Notebook Asus I7-12700h",
+        "precio": 10000,
+        "categoria": "notebooks"
+    }
+    
+   
+]
+
+
+
+
+
