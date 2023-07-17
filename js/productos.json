@@ -79,8 +79,156 @@
         "nombre": "Notebook Asus I7-12700h",
         "precio": 10000,
         "categoria": "notebooks"
-    }
+    },
     
+    {
+        "id": 11,
+        "nombre": "Fuente Aerocool Advanced Technologies",
+        "precio": 1000,
+        "categoria": "fuentes"
+    },
+    
+    {
+        "id": 12,
+        "nombre": "Fuente De Alimentacion Gadnic 5",
+        "precio": 2000,
+        "categoria": "fuentes"
+    },
+
+    {
+        "id": 13,
+        "nombre": "Fuente  PC GameMax",
+        "precio": 3000,
+        "categoria": "fuentes"
+    },
+
+    {
+        "id": 14,
+        "nombre": "Fuente  Redragon Gc Series",
+        "precio": 4000,
+        "categoria": "fuentes"
+    },
+
+    {
+        "id": 15,
+        "nombre": "Fuente Gamer Gigabyte 1000w",
+        "precio": 5000,
+        "categoria": "fuentes"
+    },
+
+    {
+        "id": 16,
+        "nombre": "Fuente  LNZ ZX750-LS",
+        "precio": 6000,
+        "categoria": "fuentes"
+    },
+
+
+    {
+        "id": 17,
+        "nombre": "Fuente  Gc-ps010",
+        "precio": 7000,
+        "categoria": "fuentes"
+    },
+
+    {
+        "id": 18,
+        "nombre": "",
+        "precio": 8000,
+        "categoria": "fuentes"
+    },
+
+    {
+        "id": 19,
+        "nombre": "Fuente  PC Giga-Byte Technology",
+        "precio": 9000,
+        "categoria": "fuentes"
+    },
+
+    {
+        "id": 20,
+        "nombre": "Fuente  PC Corsair",
+        "precio": 10000,
+        "categoria": "fuentes"
+    },
+
+
+    {
+        "id": 21,
+        "nombre": "Placa de Video MSI NVIDIA GeForce",
+        "precio": 1000,
+        "categoria": "pdevideo"
+    },
+
+    {
+        "id": 22,
+        "nombre": "Placa de Video Palit NVIDIA",
+        "precio": 2000,
+        "categoria": "pdevideo"
+    },
+
+    {
+        "id": 23,
+        "nombre": "Placa de Video Palit NVIDIA GeForce GT 730",
+        "precio": 3000,
+        "categoria": "pdevideo"
+    },
+
+
+    {
+        "id": 24,
+        "nombre": "Placa de Video Palit NVIDIA GeForce GT 730 2GB GDDR3",
+        "precio": 4000,
+        "categoria": "pdevideo"
+    },
+
+
+    {
+        "id": 25,
+        "nombre": "Placa de Video Inno3D NVIDIA GeForce RTX 3060 TwinX2 12GB GDDR6 LHR",
+        "precio": 5000,
+        "categoria": "pdevideo"
+    },
+
+
+    {
+        "id": 26,
+        "nombre": "",
+        "precio": 6000,
+        "categoria": "pdevideo"
+    },
+
+
+    {
+        "id": 27,
+        "nombre": "",
+        "precio": 7000,
+        "categoria": "pdevideo"
+    },
+
+
+    {
+        "id": 28,
+        "nombre": "",
+        "precio": 8000,
+        "categoria": "pdevideo"
+    },
+
+
+    {
+        "id": 29,
+        "nombre": "",
+        "precio": 9000,
+        "categoria": "pdevideo"
+    },
+
+    {
+        "id": 30,
+        "nombre": "",
+        "precio": 10000,
+        "categoria": "pdevideo"
+    }
+
    
 ]
 
