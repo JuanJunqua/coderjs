@@ -169,7 +169,7 @@
 
     {
         "id": 23,
-        "nombre": "Placa de Video Palit NVIDIA GeForce GT 730",
+        "nombre": "Placa de Video Palit NVIDIA GeForce GT 730 2GB GDDR3",
         "precio": 3000,
         "categoria": "pdevideo"
     },
@@ -177,7 +177,7 @@
 
     {
         "id": 24,
-        "nombre": "Placa de Video Palit NVIDIA GeForce GT 730 2GB GDDR3",
+        "nombre": "Placa de Video Inno3D NVIDIA GeForce RTX 3060 TwinX2 12GB GDDR6 LHR",
         "precio": 4000,
         "categoria": "pdevideo"
     },
@@ -185,7 +185,7 @@
 
     {
         "id": 25,
-        "nombre": "Placa de Video Inno3D NVIDIA GeForce RTX 3060 TwinX2 12GB GDDR6 LHR",
+        "nombre": "Placa de Video Inno3D NVIDIA GeForce GT 1030 2GB GDDR5",
         "precio": 5000,
         "categoria": "pdevideo"
     },
@@ -193,7 +193,7 @@
 
     {
         "id": 26,
-        "nombre": "",
+        "nombre": "Placa de Video Palit NVIDIA GeForce GTX 1050 TI STORMX 4Gb GDDR5",
         "precio": 6000,
         "categoria": "pdevideo"
     },
@@ -201,7 +201,7 @@
 
     {
         "id": 27,
-        "nombre": "",
+        "nombre": "Placa de Video Inno3D NVIDIA GeForce GTX 1050 TI X2 4Gb GDDR5",
         "precio": 7000,
         "categoria": "pdevideo"
     },
@@ -209,7 +209,7 @@
 
     {
         "id": 28,
-        "nombre": "",
+        "nombre": "Placa de Video Palit NVIDIA GeForce GTX 1650 GP 4GB GDDR6",
         "precio": 8000,
         "categoria": "pdevideo"
     },
@@ -217,19 +217,101 @@
 
     {
         "id": 29,
-        "nombre": "",
+        "nombre": "Placa de Video ASUS NVIDIA GeForce GTX 1650 PHOENIX EVO 4Gb GDDR6",
         "precio": 9000,
         "categoria": "pdevideo"
     },
 
     {
         "id": 30,
-        "nombre": "",
+        "nombre": "Placa de Video Palit NVIDIA GeForce GTX 1660 DUAL 6GB GDDR5",
         "precio": 10000,
         "categoria": "pdevideo"
-    }
+    },
 
-   
+    {
+        "id": 31,
+        "nombre": "Cooler Cpu Coolermaster Hyper 212 Led Turbo Argb",
+        "precio": 1000,
+        "categoria": "refrigeracion"
+    },
+    {
+        "id": 32,
+        "nombre": "Cooler Ventilador Fan Asic Antminer Minero S19j 6000rpm X2un",
+        "precio": 2000,
+        "categoria": "refrigeracion"
+    },
+
+
+    {
+        "id": 33,
+        "nombre": "Memoria Pc Ddr4 8gb 3600mhz (1x8gb) Pny Xlr8 Rgb Silver",
+        "precio": 1000,
+        "categoria": "ram"
+    },
+
+    {
+        "id": 34,
+        "nombre": "Memoria Ram Pny Ddr4 8gb 3200mhz Cl22 1.35v",
+        "precio": 2000,
+        "categoria": "ram"
+    },
+
+    {
+        "id": 35,
+        "nombre": "Microprocesador Amd Ryzen 5 3600 4.2ghz ",
+        "precio": 1000,
+        "categoria": "procesadores"
+    },
+
+    {
+        "id": 36,
+        "nombre": "Intel Core i5 i5-10400F",
+        "precio": 2000,
+        "categoria": "procesadores"
+    },
+
+    {
+        "id": 37,
+        "nombre": "Gabinete Pc Super Gamer Blanco Vidrio Templado 6 Coolers Rgb",
+        "precio": 1000,
+        "categoria": "gabinetes"
+    },
+
+    {
+        "id": 38,
+        "nombre": "Gabinete Gamer Rgb Redragon",
+        "precio": 2000,
+        "categoria": "gabinetes"
+    },
+
+    {
+        "id": 39,
+        "nombre": "Disco Solido Ssd 1tb M.2 Kingston ",
+        "precio": 1000,
+        "categoria": "almacenamiento"
+    },
+
+    {
+        "id": 40,
+        "nombre": "Kingston SNV2S/500G 500 GB",
+        "precio": 2000,
+        "categoria": "almacenamiento"
+    },
+
+    {
+        "id": 41,
+        "nombre": "Monitor Gamer Led 22 Fullhd",
+        "precio": 1000,
+        "categoria": "monitores"
+    },
+
+    {
+        "id": 42,
+        "nombre": "Monitor gamer LG UltraGear 24GN600",
+        "precio": 2000,
+        "categoria": "monitores"
+    }
 ]
 
 
