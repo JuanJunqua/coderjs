@@ -30,6 +30,7 @@ function displayCart() {
     listItem.style.fontSize = '12px'
 
     /* boton eliminar */
+
     const deleteButton = document.createElement('button');
     deleteButton.textContent = 'Eliminar';
     deleteButton.addEventListener('click', () => {
@@ -54,6 +55,7 @@ function removeProductFromCart(productId) {
 }
 
 /* boton de pagar que elimina todo */
+
 function pay() {
   localStorage.removeItem('carrito');
   const cartTotal = document.getElementById('cart-total');

@@ -3,6 +3,9 @@ class BaseDeDatos {
     this.productos = [];
   }
   
+
+  /* fetch de productos , error si no puede agarrar el json */
+
   async traerRegistro() {
     return new Promise((resolve, reject) => {
       fetch("js/productos.json")
@@ -23,6 +26,8 @@ class BaseDeDatos {
 }
 
 /* carrito */
+
+
 class Carrito {
   constructor() {
     this.carrito = this.getCartFromLocalStorage();
@@ -58,6 +63,8 @@ class Carrito {
 }
 
 /* clase productos */
+
+
 class Producto {
   constructor(id, nombre, precio, categoria) {
     this.id = id;
@@ -99,3 +106,26 @@ cargarProductos();
 
 
 
+const buyButtons = document.querySelectorAll('.buy-button');
+
+
+/* funcion para los botones de comprar tengan la animacion */
+
+
+function applyPressEffect(event) {
+  const button = event.target;
+  button.style.transform = 'translateY(2px)';
+}
+
+
+function removePressEffect(event) {
+  const button = event.target;
+  button.style.transform = 'translateY(0)';
+}
+
+
+buyButtons.forEach(button => {
+  button.addEventListener('mousedown', applyPressEffect);
+  button.addEventListener('mouseup', removePressEffect);
+  button.addEventListener('mouseleave', removePressEffect);
+});
