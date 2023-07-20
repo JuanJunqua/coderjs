@@ -4,9 +4,17 @@ class BaseDeDatos {
   }
   
   async traerRegistro() {
-    const response = await fetch("js/productos.json");
-    this.productos = await response.json();
-    return this.productos;
+    return new Promise((resolve, reject) => {
+      fetch("js/productos.json")
+        .then(response => response.json())
+        .then(productos => {
+          this.productos = productos;
+          resolve(productos);
+        })
+        .catch(error => {
+          reject(error);
+        });
+    });
   }
 
   registroPorId(id) {
@@ -87,4 +95,7 @@ function proceedToCheckout() {
 }
 
 cargarProductos();
+
+
+
 

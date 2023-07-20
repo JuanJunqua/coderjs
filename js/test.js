@@ -18,7 +18,7 @@ function displayCart() {
 
   if (cart.length === 0) {
     cartContainer.innerHTML = 'El carrito está vacío';
-    cartTotal.textContent = 'Total: $0'; // Actualizamos el total a $0 si el carrito está vacío
+    cartTotal.textContent = 'Total: $0'; // actualizamos el total a $0 si el carrito está vacío
     return;
   }
 
@@ -27,14 +27,16 @@ function displayCart() {
   cart.forEach(product => {
     const listItem = document.createElement('li');
     listItem.textContent = `${product.nombre} - $${product.precio} - Cantidad: ${product.cantidad}`;
+    listItem.style.fontSize = '12px'
 
     /* boton eliminar */
     const deleteButton = document.createElement('button');
     deleteButton.textContent = 'Eliminar';
     deleteButton.addEventListener('click', () => {
       removeProductFromCart(product.id);
-      displayCart(); // Actualizamos el carrito después de eliminar un producto
+      displayCart(); // actualizamos el carrito después de eliminar un producto
     });
+    deleteButton.style.fontSize = '10px';
 
     listItem.appendChild(deleteButton);
     cartContainer.appendChild(listItem);
